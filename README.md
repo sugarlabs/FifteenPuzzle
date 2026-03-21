@@ -28,36 +28,26 @@ Fifteen Puzzle game can be run on the Sugar desktop. Please refer to;
 * [How to use Sugar](https://help.sugarlabs.org/)
 
 
-How to run?
-=================
 
-Dependencies:- 
-- Python >= 3.10
-- PyGObject >= 3.42
-- PyGame >= 2.5
-  
-These dependencies need to be manually installed on Debian, Ubuntu and Fedora distributions.
+How to upgrade?
+===============
+On Sugar desktop systems;
+* use My Settings, Software Update, or;
+* use Browse to open [v4.activities.sugarlabs.org](https://v4.activities.sugarlabs.org/app/org.sugarlabs.FifteenPuzzle.html), search for FifteenPuzzle, then download.
 
+How to develop?
+===============
+Setup a [development environment for Sugar desktop](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md),
 
-**Running outside Sugar**
+    cd ~/Activities
+    git clone https://github.com/sugarlabs/FifteenPuzzle.git FifteenPuzzle.activity
 
+Log out and back in to Sugar — FifteenPuzzle will appear on the home screen.
 
-- Install the dependencies
+Dependencies
+============
+FifteenPuzzle depends on Python and Sugar Toolkit for GTK+ 3.
 
-- Clone the repo and run -
-```
-git clone https://github.com/Bishoywadea/FifteenPuzzle
-cd FifteenPuzzle
-python main.py
-```
-
-**Running inside Sugar**
-
-- Open Terminal activity and change to the Fifteen Puzzle activity directory
-```
-cd activities\FifteenPuzzle.activity
-```
-- To run
-```
-sugar-activity3 .
-```
+Licence
+=======
+GPLv3+. See [COPYING](COPYING).
