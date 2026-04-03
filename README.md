@@ -44,9 +44,6 @@ Setup a [development environment for Sugar desktop](https://github.com/sugarlabs
 
 Log out and back in to Sugar — FifteenPuzzle will appear on the home screen.
 
-Dependencies
-============
-FifteenPuzzle depends on Python and Sugar Toolkit for GTK+ 3.
 
 Licence
 =======
