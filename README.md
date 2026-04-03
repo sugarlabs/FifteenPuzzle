@@ -45,6 +45,6 @@ Setup a [development environment for Sugar desktop](https://github.com/sugarlabs
 Log out and back in to Sugar — FifteenPuzzle will appear on the home screen.
 
 
-Licence
+License
 =======
 GPLv3+. See [COPYING](COPYING).
